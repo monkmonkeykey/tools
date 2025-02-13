@@ -37,7 +37,7 @@ class DMXController:
             # Ensure value is between 0 and 255
             value = max(0, min(255, value))
             self.cv[channel] = value
-            print(f"Set channel {channel+1} to {value}.")
+            #print(f"Set channel {channel+1} to {value}.")
         else:
             print(f"Channel {channel+1} out of range (0-511).")
 
@@ -65,7 +65,7 @@ class DMXController:
         if osc_address.startswith('dmx') and osc_address[3:].isdigit():
             channel = int(osc_address[3:]) - 1  # Extract the number from the address and convert to zero-indexed
             value = int(args[0])  # The value should be the first argument
-            print(f"Received OSC message: Address: {unused_addr}, Value: {value}")
+            #print(f"Received OSC message: Address: {unused_addr}, Value: {value}")
             self.set_channel_value(channel, value)
             self.send_dmx()
         else:
