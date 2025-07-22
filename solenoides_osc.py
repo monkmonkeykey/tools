@@ -47,7 +47,7 @@ def manejar_solenoide(address, *args):
     if valor_anterior == 0 and valor > 0:
         duracion = valor  # Valor es duración en segundos, ya mapeado desde Max/MSP
         pin = solenoide_pines[nombre]
-        print(f"Disparo: {nombre} (GPIO {pin}) por {duracion:.3f} segundos")
+        #print(f"Disparo: {nombre} (GPIO {pin}) por {duracion:.3f} segundos")
 
         GPIO.output(pin, GPIO.HIGH)
         time.sleep(duracion)
