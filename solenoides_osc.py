@@ -9,7 +9,7 @@ GPIO.setmode(GPIO.BCM)
 
 # Diccionario de solenoides: nombre -> pin GPIO
 solenoide_pines = {
-    "solenoide_uno": 18,
+    "solenoide1": 18,
     "platano": 23,
     "pera": 24,
     "uva": 12,
