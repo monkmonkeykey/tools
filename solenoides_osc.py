@@ -18,36 +18,45 @@ solenoide_pines = {
     "melon": 26
 }
 
-# Configura los pines como salida
+# Estado anterior de cada solenoide (valor recibido previamente)
+estados_anteriores = {nombre: 0.0 for nombre in solenoide_pines}
+
+# Configura pines como salida
 for pin in solenoide_pines.values():
     GPIO.setup(pin, GPIO.OUT)
     GPIO.output(pin, GPIO.LOW)
 
-# Función para manejar mensajes OSC
+# Función que maneja los mensajes OSC
 def manejar_solenoide(address, *args):
-    nombre = address.split("/")[-1]  # Extrae nombre del solenoide
-    if nombre in solenoide_pines:
-        pin = solenoide_pines[nombre]
-        try:
-            duracion = float(args[0])
-            if duracion <= 0:
-                print(f"Ignorado: duración no válida ({duracion}) para {nombre}")
-                return
-        except (IndexError, ValueError):
-            print(f"Error: no se recibió un valor válido para {nombre}")
-            return
+    nombre = address.split("/")[-1]
 
-        print(f"Activando solenoide: {nombre} (GPIO {pin}) por {duracion:.3f} segundos")
+    if nombre not in solenoide_pines:
+        print(f"Solenoide desconocido: {nombre}")
+        return
+
+    try:
+        valor = float(args[0])
+    except (IndexError, ValueError):
+        print(f"Valor inválido para {nombre}")
+        return
+
+    valor_anterior = estados_anteriores[nombre]
+
+    # Detecta flanco de subida: de 0 a > 0
+    if valor_anterior == 0 and valor > 0:
+        duracion = valor  # Valor es duración en segundos, ya mapeado desde Max/MSP
+        pin = solenoide_pines[nombre]
+        print(f"Disparo: {nombre} (GPIO {pin}) por {duracion:.3f} segundos")
+
         GPIO.output(pin, GPIO.HIGH)
         time.sleep(duracion)
         GPIO.output(pin, GPIO.LOW)
-    else:
-        print(f"Solenoide desconocido: {nombre}")
+
+    # Actualiza el valor anterior
+    estados_anteriores[nombre] = valor
 
 # Configura el despachador OSC
 disp = dispatcher.Dispatcher()
-
-# Mapea las direcciones OSC
 for fruta in solenoide_pines:
     disp.map(f"/{fruta}", manejar_solenoide)
 
@@ -61,5 +70,5 @@ print(f"Servidor OSC escuchando en {ip_escucha}:{puerto_escucha}")
 try:
     servidor.serve_forever()
 except KeyboardInterrupt:
-    print("Detenido por usuario. Limpiando GPIO.")
+    print("Interrumpido. Limpiando GPIO.")
     GPIO.cleanup()
