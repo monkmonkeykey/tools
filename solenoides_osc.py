@@ -15,8 +15,7 @@ solenoide_pines = {
     "cuatro": 12,
     "cinco": 13,
     "seis" : 19,
-    "siete": 26,
-    "ocho": 27
+    "siete": 26
 }
 
 # Estado anterior de cada solenoide (valor recibido previamente)
