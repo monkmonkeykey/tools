@@ -9,14 +9,14 @@ GPIO.setmode(GPIO.BCM)
 
 # Diccionario de solenoides: nombre -> pin GPIO
 solenoide_pines = {
-    "solenoide_uno": 18,
-    "solenoide_dos": 23,
-    "solenoide_tres": 24,
-    "solenoide_cuatro": 12,
+    "solenoide_uno": 17,
+    "solenoide_dos": 28,
+    "solenoide_tres": 27,
+    "solenoide_cuatro": 21,
     "solenoide_cinco": 13,
     "solenoide_seis" : 19,
     "solenoide_siete": 26,
-    "solenoide_ocho": 27
+    "solenoide_ocho": 4
 }
 
 # Estado anterior de cada solenoide (valor recibido previamente)
