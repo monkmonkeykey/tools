@@ -28,13 +28,19 @@ def iniciar_servidor():
                     ip = addr[0]
                     hora = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                     usuario = info.get("usuario", "N/A")
-                    sistema = info.get("sistema_operativo")
+                    sistema = info.get("sistema_operativo", "N/A")
                     temperatura = info.get("temperatura_C")
                     ram_usada = info.get("ram_usada_MB", 0)
                     ram_total = info.get("ram_total_MB", 0)
-                    estado = info.get("estado_jacktrip", "desconocido")
 
-                    # Almacenar para control
+                    # Analizar estado de jacktrip
+                    estado_raw = info.get("jacktrip_activo", "desconocido")
+                    if isinstance(estado_raw, bool):
+                        estado_str = 'activo' if estado_raw else 'inactivo'
+                    else:
+                        estado_str = str(estado_raw)
+
+                    # Guardar información
                     usuarios_conectados[ip] = {
                         "hora": hora,
                         "usuario": usuario,
@@ -42,17 +48,17 @@ def iniciar_servidor():
                         "temperatura": temperatura,
                         "ram_usada_MB": ram_usada,
                         "ram_total_MB": ram_total,
-                        "estado_jacktrip": estado
+                        "estado_jacktrip": estado_str
                     }
 
                     # Imprimir en consola
-                    print(f"\nConexión desde: {ip}")
-                    print(f"{hora}")
-                    print(f"OS: {sistema}")
-                    print(f"Usuario: {usuario}")
-                    print(f"Temperatura CPU: {temperatura if temperatura is not None else 'N/A'} °C")
-                    print(f"RAM usada: {ram_usada} MB / {ram_total} MB")
-                    print(f"JackTrip activo: {'Sí' if estado == 'activo' else 'No'}")
+                    print(f"\n🖥️ Conexión desde {ip}")
+                    print(f"🕒 {hora}")
+                    print(f"💻 OS: {sistema}")
+                    print(f"👤 Usuario: {usuario}")
+                    print(f"🌡️  Temperatura CPU: {temperatura if temperatura is not None else 'N/A'} °C")
+                    print(f"🧠 RAM usada: {ram_usada} MB / {ram_total} MB")
+                    print(f"🎛️ JackTrip activo: {'Sí' if estado_str == 'activo' else 'No'}")
 
                 except json.JSONDecodeError as e:
                     print(f"⚠️ Error al decodificar JSON desde {addr[0]}: {e}")
