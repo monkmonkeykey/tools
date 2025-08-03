@@ -1,48 +1,63 @@
 import socket
-import ipaddress
 import json
-from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 
 PUERTO = 5555
-SUBRED = "192.168.15.0/24"
-ARCHIVO_SALIDA = "usuarios_detectados.json"
+BUFFER_SIZE = 4096
+usuarios_conectados = {}
 
-def escanear_dispositivo(ip):
-    ip_str = str(ip)
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.settimeout(0.5)
-    try:
-        s.connect((ip_str, PUERTO))
-        respuesta = s.recv(1024).decode().strip()
-        print(f"{ip_str} respondió: usuario remoto = '{respuesta}'")
-        return {"ip": ip_str, "usuario": respuesta}
-    except Exception:
-        return None
-    finally:
-        s.close()
+def iniciar_servidor():
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as servidor:
+        servidor.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+        servidor.bind(('', PUERTO))
+        servidor.listen()
+        print(f"🟢 Servidor escuchando en el puerto {PUERTO}...\n")
 
-def escanear_red(subred):
-    red = ipaddress.ip_network(subred, strict=False)
-    print(f"Escaneando red {subred} en el puerto {PUERTO}...\n")
-    ips = list(red.hosts())
-    resultados = []
+        while True:
+            conn, addr = servidor.accept()
+            with conn:
+                try:
+                    datos = conn.recv(BUFFER_SIZE).decode().strip()
 
-    with ThreadPoolExecutor(max_workers=50) as executor:
-        for resultado in executor.map(escanear_dispositivo, ips):
-            if resultado:
-                resultados.append(resultado)
+                    if not datos:
+                        print(f"⚠️ Se recibió una cadena vacía desde {addr[0]}")
+                        continue
 
-    if not resultados:
-        print("\n❌ No se detectaron dispositivos que respondan en ese puerto.")
-    else:
-        print(f"\n✅ Dispositivos detectados:")
-        for r in resultados:
-            print(f" - {r['ip']} -> usuario: {r['usuario']}")
+                    info = json.loads(datos)
 
-        # Guardar resultados en JSON
-        with open(ARCHIVO_SALIDA, "w") as f:
-            json.dump(resultados, f, indent=2)
-        print(f"\n💾 Resultados guardados en: {ARCHIVO_SALIDA}")
+                    ip = addr[0]
+                    hora = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                    usuario = info.get("usuario", "N/A")
+                    sistema = info.get("sistema_operativo")
+                    temperatura = info.get("temperatura_C")
+                    ram_usada = info.get("ram_usada_MB", 0)
+                    ram_total = info.get("ram_total_MB", 0)
+                    estado = info.get("estado_jacktrip", "desconocido")
+
+                    # Almacenar para control
+                    usuarios_conectados[ip] = {
+                        "hora": hora,
+                        "usuario": usuario,
+                        "OS": sistema,
+                        "temperatura": temperatura,
+                        "ram_usada_MB": ram_usada,
+                        "ram_total_MB": ram_total,
+                        "estado_jacktrip": estado
+                    }
+
+                    # Imprimir en consola
+                    print(f"\nConexión desde: {ip}")
+                    print(f"{hora}")
+                    print(f"OS: {sistema}")
+                    print(f"Usuario: {usuario}")
+                    print(f"Temperatura CPU: {temperatura if temperatura is not None else 'N/A'} °C")
+                    print(f"RAM usada: {ram_usada} MB / {ram_total} MB")
+                    print(f"JackTrip activo: {'Sí' if estado == 'activo' else 'No'}")
+
+                except json.JSONDecodeError as e:
+                    print(f"⚠️ Error al decodificar JSON desde {addr[0]}: {e}")
+                except Exception as e:
+                    print(f"⚠️ Error general al procesar datos desde {addr[0]}: {e}")
 
 if __name__ == "__main__":
-    escanear_red(SUBRED)
+    iniciar_servidor()

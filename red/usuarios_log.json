@@ -1,0 +1,1058 @@
+[
+  {
+    "timestamp": "2025-08-03T11:14:00.614621",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 163,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:14:02.586658",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 171,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:14:10.651419",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 182,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:14:12.612952",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 208,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:14:20.786315",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 282,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:14:22.653116",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 297,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:14:30.813892",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 335,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:14:32.768704",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 352,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:14:40.855383",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 284,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:14:42.901402",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 283,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:14:50.996170",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 283,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:14:53.092324",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 286,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:15:01.031829",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 305,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:15:03.160031",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 305,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:15:11.066337",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 307,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:15:13.215322",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 307,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:15:21.113582",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 310,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:15:23.333738",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 311,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:15:31.166633",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 311,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:15:33.376467",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 311,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:15:41.217389",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:15:43.527663",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:15:51.255745",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:15:53.574460",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:16:01.306303",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:16:03.700635",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:16:11.380930",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:16:13.744001",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:16:21.426637",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:16:23.797752",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:16:31.480163",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:16:33.834243",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:16:41.516232",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:16:43.943903",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:16:51.572355",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:16:53.989621",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:01.617537",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 314,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:04.054333",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 314,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:11.662380",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 314,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:14.095804",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 314,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:21.703118",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:24.139903",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:29.105081",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 9060,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:31.765037",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:34.181432",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:39.143838",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8800,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:41.903558",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:44.223937",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:49.184973",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8785,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:52.040416",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:54.290097",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:17:59.311460",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8747,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:02.274305",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:04.336226",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:09.448409",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8741,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:12.328192",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:14.469619",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:19.586101",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8776,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:22.607387",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:24.604509",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 314,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:29.726016",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8781,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:32.650363",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 314,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:34.648292",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 314,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:39.814417",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8799,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:42.735376",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 314,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:44.783709",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 314,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:49.860362",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8758,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:52.782553",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 314,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:54.923788",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 314,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:18:59.939812",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8723,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:02.828051",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 314,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:05.059629",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:10.078003",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8723,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:12.944603",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:15.197381",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:20.144134",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8715,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:23.082132",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:25.336159",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:30.250922",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8705,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:33.142306",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:35.472823",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:40.281964",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8678,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:43.255902",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:45.526639",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 315,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:50.330515",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8679,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:53.330010",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:19:55.646081",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:00.373748",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8702,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:03.377849",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:05.688208",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:10.494763",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8879,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:13.420332",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:15.746268",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 313,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:20.514316",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8901,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:23.462395",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:25.784821",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:30.667832",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8892,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:33.535487",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:35.828058",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:40.703616",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8852,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:43.579986",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:45.926257",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:50.764816",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8850,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:53.709038",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:20:55.967883",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:00.828120",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8705,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:03.769276",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:06.013238",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:10.872558",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8663,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:13.880459",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:16.058726",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:20.917942",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8649,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:23.923956",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:26.096893",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:30.982358",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8482,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:34.695588",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:36.138212",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:41.031021",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8480,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:44.806067",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:46.181202",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:51.155963",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8473,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:54.872340",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:21:56.275076",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:22:01.208337",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8468,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:22:04.919467",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:22:06.414361",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:22:11.290057",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8501,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:22:14.960906",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:22:16.467673",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:22:21.334224",
+    "ip": "192.168.15.3",
+    "usuario": "monkm",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 8489,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:22:25.007538",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  },
+  {
+    "timestamp": "2025-08-03T11:22:26.500156",
+    "ip": "192.168.15.9",
+    "usuario": "jacktrip",
+    "temperatura_C": "N/A",
+    "ram_usada_MB": 312,
+    "estado_jacktrip": "desconocido"
+  }
+]
