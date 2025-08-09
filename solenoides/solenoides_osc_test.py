@@ -7,8 +7,7 @@ import signal
 import sys
 
 # Desactiva advertencias de GPIO
-GPIO.setwarnings(False)
-GPIO.setmode(GPIO.BCM)
+
 
 # Diccionario de solenoides: nombre -> pin GPIO
 solenoide_pines = {
@@ -26,9 +25,7 @@ solenoide_pines = {
 estados_anteriores = {nombre: 0.0 for nombre in solenoide_pines}
 
 # Configura todos los pines
-for pin in solenoide_pines.values():
-    GPIO.setup(pin, GPIO.OUT)
-    GPIO.output(pin, GPIO.LOW)
+
 
 # Función para apagar todos los solenoides de forma segura
 def apagar_todos():
@@ -38,7 +35,7 @@ def apagar_todos():
     GPIO.cleanup()
 
 # Registra limpieza para salidas normales y errores
-atexit.register(apagar_todos)
+
 signal.signal(signal.SIGTERM, lambda sig, frame: sys.exit(0))
 signal.signal(signal.SIGINT, lambda sig, frame: sys.exit(0))
 
@@ -64,9 +61,9 @@ def manejar_solenoide(address, *args):
         pin = solenoide_pines[nombre]
         print(f"Percute: {nombre} por {duracion:.3f}s (GPIO {pin})")
 
-        GPIO.output(pin, GPIO.HIGH)
-        time.sleep(duracion)
-        GPIO.output(pin, GPIO.LOW)
+        #GPIO.output(pin, GPIO.HIGH)
+        ##time.sleep(duracion)
+        #GPIO.output(pin, GPIO.LOW)
 
     # Actualiza estado
     estados_anteriores[nombre] = valor
