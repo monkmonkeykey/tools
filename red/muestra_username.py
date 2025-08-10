@@ -1,4 +1,4 @@
-# cliente.py
+# corre_servicio.py
 import socket
 import getpass
 import psutil
@@ -19,7 +19,7 @@ def obtener_ip_local():
         s.close()
         return ip
     except Exception as e:
-        print("?? No se pudo obtener IP local:", e)
+        print("No se pudo obtener IP local:", e)
         return "desconocida"
 
 def obtener_temperatura():
@@ -37,6 +37,7 @@ def obtener_temperatura():
 
 def obtener_datos():
     usuario = getpass.getuser()
+    hostname = socket.gethostname() or platform.node()
     sistema = platform.system()
     ip_local = obtener_ip_local()
     temperatura = obtener_temperatura()
@@ -58,6 +59,7 @@ def obtener_datos():
 
     return {
         "usuario": usuario,
+        "hostname": hostname,
         "sistema_operativo": sistema,
         "ip_local": ip_local,
         "temperatura_C": temperatura,
@@ -68,40 +70,41 @@ def obtener_datos():
         }
     }
 
-def descubrir_servidor(usuario):
-    mensaje = json.dumps({"usuario": usuario})
+def descubrir_servidor(usuario, hostname):
+    mensaje = json.dumps({"usuario": usuario, "hostname": hostname})
     with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as udp:
         udp.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
         udp.settimeout(5)
-        print(f"? Enviando descubrimiento UDP desde {obtener_ip_local()}...")
+        print(f"Enviando descubrimiento UDP desde {obtener_ip_local()}...")
         try:
             udp.sendto(mensaje.encode(), ("<broadcast>", PUERTO_UDP))
             respuesta, addr = udp.recvfrom(1024)
             info = json.loads(respuesta.decode())
-            print(f"? Respuesta del servidor recibida desde {addr[0]}")
+            print(f"Respuesta del servidor recibida desde {addr[0]}")
             return info["ip"]
         except Exception as e:
-            print(f"? Error en descubrimiento UDP: {e}")
+            print(f"Error en descubrimiento UDP: {e}")
             return None
 
 def enviar_datos():
     usuario = getpass.getuser()
+    hostname = socket.gethostname() or platform.node()
     while True:
-        servidor_ip = descubrir_servidor(usuario)
+        servidor_ip = descubrir_servidor(usuario, hostname)
         if servidor_ip:
             datos = obtener_datos()
-            print("\n? Datos preparados para enviar:")
+            print("\nDatos preparados para enviar:")
             print(json.dumps(datos, indent=2))
 
             try:
                 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                     s.connect((servidor_ip, PUERTO_TCP))
                     s.sendall(json.dumps(datos).encode())
-                    print(f"? Datos enviados correctamente a {servidor_ip}")
+                    print(f"Datos enviados correctamente a {servidor_ip}")
             except Exception as e:
-                print("? Error al enviar datos:", e)
+                print("Error al enviar datos:", e)
         else:
-            print("? No se encontró el servidor. Reintentando...")
+            print("No se encontró el servidor. Reintentando...")
 
         time.sleep(TIEMPO_ESPERA)
 
