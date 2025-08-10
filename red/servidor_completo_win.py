@@ -14,7 +14,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 # ------------------- UTILIDADES -------------------
-
 def obtener_ip_local():
     """Obtiene la IP local real."""
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -59,7 +58,7 @@ def guardar_ip_en_csv(usuario: str, ip: str) -> None:
             writer.writerows(filas)
         print(f"[CSV] Guardada IP {ip} en {ruta} (celda [0,0])")
     except Exception as e:
-        print(f"[CSV] ⚠️ Error al guardar CSV: {e}")
+        print(f"[CSV]  Error al guardar CSV: {e}")
 
 
 def recv_json_lines(conn):

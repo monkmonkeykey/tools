@@ -85,12 +85,15 @@ def descubrir_servidor(usuario, hostname):
         except Exception as e:
             print(f"Error en descubrimiento UDP: {e}")
             return None
-
+def guarda_ip_servidor(ip_server):
+    with open ("ip_servidor.txt","a") as f:
+        f.write(ip_server)
 def enviar_datos():
     usuario = getpass.getuser()
     hostname = socket.gethostname() or platform.node()
     while True:
         servidor_ip = descubrir_servidor(usuario, hostname)
+        guarda_ip_servidor(servidor_ip)
         if servidor_ip:
             datos = obtener_datos()
             print("\nDatos preparados para enviar:")
