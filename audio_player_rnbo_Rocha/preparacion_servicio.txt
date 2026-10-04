@@ -1,0 +1,21 @@
+sudo nano /etc/systemd/system/sistema_audio.service
+
+[Unit]
+Description=Servicio de Inicio USB y Mezclador Audio OLED
+After=network.target sound.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/pi/Documents/rnbo
+ExecStart=/home/pi/Documents/rnbo/venv/bin/python3 /home/pi/Documents/rnbo/inicio.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+
+sudo systemctl daemon-reload
+sudo systemctl restart sistema_audio.service
+
+sudo systemctl status sistema_audio.service
