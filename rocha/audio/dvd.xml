@@ -1,0 +1,13 @@
+<dvdauthor dest="DVD_LOOP" format="ntsc">
+  <vmgm />
+  <titleset>
+    <titles>
+      <video format="ntsc" aspect="4:3" resolution="720x480" />
+      <audio format="ac3" channels="6" samplerate="48khz" />
+      <pgc>
+        <vob file="programa_dvd.mpg" />
+        <post>jump title 1;</post>
+      </pgc>
+    </titles>
+  </titleset>
+</dvdauthor>
