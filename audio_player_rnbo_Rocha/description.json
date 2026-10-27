@@ -1,0 +1,221 @@
+{
+  "parameters": [],
+  "numParameters": 0,
+  "numSignalInParameters": 0,
+  "numSignalOutParameters": 0,
+  "numInputChannels": 0,
+  "numOutputChannels": 16,
+  "numMidiInputPorts": 0,
+  "numMidiOutputPorts": 0,
+  "transportUsed": false,
+  "externalDataRefs": [
+    {
+      "id": "playback",
+      "type": "Float32Buffer",
+      "tag": "buffer~"
+    },
+    {
+      "id": "b_audio_wav",
+      "file": "/Users/josue/Downloads/audio.wav",
+      "type": "Float32Buffer",
+      "tag": "buffer~"
+    }
+  ],
+  "patcherSerial": 0,
+  "inports": [
+    {
+      "tag": "consultaInfo",
+      "meta": ""
+    },
+    {
+      "tag": "/vol1",
+      "meta": ""
+    },
+    {
+      "tag": "/vol2",
+      "meta": ""
+    },
+    {
+      "tag": "/vol3",
+      "meta": ""
+    },
+    {
+      "tag": "/vol4",
+      "meta": ""
+    },
+    {
+      "tag": "/vol5",
+      "meta": ""
+    },
+    {
+      "tag": "/vol6",
+      "meta": ""
+    },
+    {
+      "tag": "/vol7",
+      "meta": ""
+    },
+    {
+      "tag": "/vol8",
+      "meta": ""
+    }
+  ],
+  "outports": [
+    {
+      "tag": "channels",
+      "meta": ""
+    },
+    {
+      "tag": "loopeando",
+      "meta": ""
+    },
+    {
+      "tag": "seg",
+      "meta": ""
+    },
+    {
+      "tag": "durSeg",
+      "meta": ""
+    },
+    {
+      "tag": "volumen1",
+      "meta": ""
+    },
+    {
+      "tag": "volumen2",
+      "meta": ""
+    },
+    {
+      "tag": "volumen3",
+      "meta": ""
+    },
+    {
+      "tag": "volumen4",
+      "meta": ""
+    },
+    {
+      "tag": "volumen5",
+      "meta": ""
+    },
+    {
+      "tag": "volumen6",
+      "meta": ""
+    },
+    {
+      "tag": "volumen7",
+      "meta": ""
+    },
+    {
+      "tag": "volumen8",
+      "meta": ""
+    }
+  ],
+  "inlets": [],
+  "outlets": [
+    {
+      "type": "signal",
+      "index": 1,
+      "tag": "out1",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 2,
+      "tag": "out2",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 3,
+      "tag": "out3",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 4,
+      "tag": "out4",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 5,
+      "tag": "out5",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 6,
+      "tag": "out6",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 7,
+      "tag": "out7",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 8,
+      "tag": "out8",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 9,
+      "tag": "out9",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 10,
+      "tag": "out10",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 11,
+      "tag": "out11",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 12,
+      "tag": "out12",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 13,
+      "tag": "out13",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 14,
+      "tag": "out14",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 15,
+      "tag": "out15",
+      "meta": ""
+    },
+    {
+      "type": "signal",
+      "index": 16,
+      "tag": "out16",
+      "meta": ""
+    }
+  ],
+  "presetid": "rnbo",
+  "meta": {
+    "architecture": "x64",
+    "filename": "playerMultichannelRNBO.maxpat",
+    "rnboobjname": "rnbomatic",
+    "maxversion": "9.0.8",
+    "rnboversion": "1.3.4",
+    "name": "untitled"
+  }
+}

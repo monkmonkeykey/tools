@@ -33,7 +33,7 @@ if VENV_PYTHON.exists() and Path(sys.executable).resolve() != VENV_PYTHON.resolv
 # =========================================================
 
 DESTINO_DIR = Path("/home/pi/Documents/rnbo/datafiles")
-DESTINO_FILE = DESTINO_DIR / "archivoAReproducir.wav"
+DESTINO_FILE = DESTINO_DIR / "audio.wav"
 MOUNT_BASE = Path("/mnt/rnbo-usb")
 ESPERA_ANTES_COPIA = 5
 CHUNK_SIZE = 1024 * 1024
