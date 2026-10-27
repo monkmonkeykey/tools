@@ -7,6 +7,12 @@
 
 > Alcance: esta guía implementa la selección de audio en un Raspberry Pi OS Legacy que ya tiene Video Looper clásico funcionando. No instala Video Looper desde cero. No es una guía universal para todas las versiones de Raspberry Pi OS o para Video Looper 2/VLC.
 
+
+## 0. credenciales públicas video looper
+user: pi 
+pass: video
+
+
 ## 1. Requisitos y diagnóstico inicial
 
 En la Raspberry Pi por SSH:
