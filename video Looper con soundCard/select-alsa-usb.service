@@ -1,0 +1,12 @@
+[Unit]
+Description=Seleccionar USB ALSA o HDMI antes de Video Looper
+Wants=systemd-udev-settle.service
+After=systemd-udev-settle.service
+Before=supervisor.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/select-alsa-usb.sh
+
+[Install]
+WantedBy=multi-user.target
